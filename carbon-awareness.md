@@ -15,7 +15,7 @@ exercises: 15
 :::::::::::::::::::::::::::::::::::::::: questions
 
 - How does electricity generation affect GHG emissions?
-- What is *carbon instensity* of electricity generation and how does it vary geographically and temporally?
+- What is *carbon intensity* of electricity generation and how does it vary geographically and temporally?
 - What techniques can I use to make my use of HPC greener and influence transition to low-carbon electricity generation?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -76,7 +76,7 @@ Carbon intensity also changes over time due to the inherent variability of renew
 
 ## Exercise: Carbon emissions from HPC systems
 
-One estimate of the power draw of the ARCHER2 HPC system is 3.1 MW (including overheads from the power/cooling plant). Mean carbon intensities from different UK regions in 2024 give low emissions regions as ~30 gCO<sub>2</sub>e/kWh, medium emissions regions as ~120 gCO<sub>2</sub>e/kWh and high emissions regions as ~250 gCO<sub>2</sub>e/kWh. What would the carbon emissions be from electricity user in 1 year of ARCHER2 operations in the three different emissions regimes?
+One estimate of the power draw of the ARCHER2 HPC system is 3.1 MW (including overheads from the power/cooling plant). Mean carbon intensities from different UK regions in 2024 give low emissions regions as ~30 gCO<sub>2</sub>e/kWh, medium emissions regions as ~120 gCO<sub>2</sub>e/kWh and high emissions regions as ~250 gCO<sub>2</sub>e/kWh. What would the carbon emissions be from electricity use in 1 year of ARCHER2 operations in the three different emissions regimes?
 
 :::::::::::::::  solution
 
