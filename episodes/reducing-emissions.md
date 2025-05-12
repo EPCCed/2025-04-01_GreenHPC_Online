@@ -154,7 +154,7 @@ A net-zero strategy would mean that the actual amount of carbon in the atmospher
 
 Also, to be a net-zero target, you must cover direct and indirect, i.e. supply chain emissions (scopes 1,2 and 3). This is significant since scope 3 often represents the majority of emissions.
 
-Fo HPC facilities, part of these strategies include educating and putting policies and approaches in place to support users to understand and take action to reduce their emissions and maximise the carbon efficiency of their HPC use.
+For HPC facilities, part of these strategies include educating and putting policies and approaches in place to support users to understand and take action to reduce their emissions and maximise the carbon efficiency of their HPC use.
 
 #### HPC-CI as part of a Net-Zero strategy
 
