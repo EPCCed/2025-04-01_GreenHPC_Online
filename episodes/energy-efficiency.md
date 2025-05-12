@@ -24,7 +24,7 @@ exercises: 10
 
 Energy is the ability to do work. There are many different forms of energy, such as heat, electrical and chemical, and one type of energy can be converted to another. For example, we convert chemical energy in coal to electrical energy. In other words, electricity is secondary energy converted from another energy type. In this way, we can think of energy as a measure of the electricity used.
 
-All software, from large scale modelling and simulation on HPC systems, to the training of AI models, to the applications running on mobile phones consumes electricity. One of the best ways to reduce electricity consumption and the subsequent carbon emissions made by software is to make make our use of HPC facilities more energy efficient.
+All software, from large scale modelling and simulation on HPC systems, to the training of AI models, to the applications running on mobile phones consumes electricity. One of the best ways to reduce electricity consumption and the subsequent carbon emissions made by software is to make our use of HPC facilities more energy efficient.
 
 The reduction of energy consumed by work on an HPC system depends on a lot of things, including:
 
@@ -89,7 +89,7 @@ Clean energy comes from renewable, zero-emission sources that do not pollute the
 
 ## Factors that impact energy efficiency
 
-Now that we know how energy is produced and the associated cost in terms of emissions, based on whether low- or high-carbon energy sources are used. There are other concepts associated with operating HPC services that impact how much energy is used and so our energy efficiency. In particular, *Power Usage Effectiveness (PUE)* and *Energy proportiionality*.
+Now that we know how energy is produced and the associated cost in terms of emissions, based on whether low- or high-carbon energy sources are used. There are other concepts associated with operating HPC services that impact how much energy is used and so our energy efficiency. In particular, *Power Usage Effectiveness (PUE)* and *Energy proportionality*.
 
 ### Power usage effectiveness
 
@@ -121,7 +121,7 @@ The relationship between power and utilisation is not linearly proportional. Mat
 
 Because of this, the more we utilise a computer, the more efficient it becomes at converting electricity to practical computing operations. One way to improve hardware efficiency is to run the workload on as few servers as possible, with the servers running at the highest utilisation rate, maximising energy efficiency.
 
-However, the story for HPC use is actually less straightforward than this description. The energy proportionality argument holds when the performance of an application is *compute bound* - that is, when the output from the application you are running is strongly correlated with the performance of the processors (actually, for HPC, it is typically the performance of the floating point units in the processors). The performance of many HPC applications is actually *memory-bound* so the performance is dependent on the performance of data moving from memory to be processed. In these cases, once you are above a certain performance threshold for the floating point units any additional power draw does not lead to increased utilisation (i.e. useful performance for the application); the more you you utilise the processor, the more power you draw but you do not get any additional useful performance so this is just wasted electricity, reducing the energy efficiency of your use. It becomes even more complex as you run parallel applications (as typically happens on HPC resources) as the change in parallel distribution can change the balance between compute bound and memory bound performance for your application; meaning that you may need to choose different strategies to maximise energy efficiency at different parallelisations even for the same problem and software.
+However, the story for HPC use is actually less straightforward than this description. The energy proportionality argument holds when the performance of an application is *compute bound* - that is, when the output from the application you are running is strongly correlated with the performance of the processors (actually, for HPC, it is typically the performance of the floating point units in the processors). The performance of many HPC applications is actually *memory-bound* so the performance is dependent on the performance of data moving from memory to be processed. In these cases, once you are above a certain performance threshold for the floating point units any additional power draw does not lead to increased utilisation (i.e. useful performance for the application); the more you utilise the processor, the more power you draw but you do not get any additional useful performance so this is just wasted electricity, reducing the energy efficiency of your use. It becomes even more complex as you run parallel applications (as typically happens on HPC resources) as the change in parallel distribution can change the balance between compute bound and memory bound performance for your application; meaning that you may need to choose different strategies to maximise energy efficiency at different parallelisations even for the same problem and software.
 
 :::::::::::::::::::::::::::::::::::::::: callout
 
